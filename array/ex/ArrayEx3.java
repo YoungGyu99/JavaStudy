@@ -19,9 +19,9 @@ public class ArrayEx3 {
 		}
 		
 		System.out.println("입력한 정수를 역순으로 출력:");
-		for (int i = numbers.length - 1, j = 0; i>= 0; i--, j++) {
+		for (int i = 4; i >= 0; i--) {
 			System.out.print(numbers[i]);
-			if (i < numbers.length + 1) {
+			if (i > 0 ) {
 			System.out.print(", ");
 		}
 	}
